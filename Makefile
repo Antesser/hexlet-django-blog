@@ -1,6 +1,8 @@
 start:
-	poetry run hexlet_django_blog/manage.py runserver 4000
-lint:
-	poetry run flake8
+	poetry run python3 manage.py runserver 4000
 install:
-	poetry install	
+	poetry install
+migrate:
+	poetry run python manage.py migrate
+check:
+	poetry check	
