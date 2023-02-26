@@ -10,6 +10,9 @@ packages = [{include = "hexlet_django_blog"}]
 python = "^3.10"
 
 
+[tool.poetry.group.dev.dependencies]
+autopep8 = "^2.0.1"
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
